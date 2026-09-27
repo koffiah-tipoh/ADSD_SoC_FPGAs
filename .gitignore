@@ -1,0 +1,15 @@
+# Quartus backups
+*.bak
+
+# Quartus generated databases/caches
+db/
+incremental_db/
+
+# Quartus compile outputs (bitstreams, reports)
+output_files/
+
+# Simulation output
+simulation/
+
+# Misc generated data dumps
+c5_pin_model_dump.txt
