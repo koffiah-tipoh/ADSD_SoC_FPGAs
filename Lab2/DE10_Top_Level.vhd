@@ -9,6 +9,12 @@
 -- Revision:     1.0
 -- License: MIT  (opensource.org/licenses/MIT)
 ----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+-- Modified by:  Koffi Adolf Hermann Tipoh
+-- Modification Date: 09/26/2026
+-- Description of changes: Added SW[3:0] to LED[3:0] pass-through logic,
+--                          unused LEDs driven to '0'
+----------------------------------------------------------------------------
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

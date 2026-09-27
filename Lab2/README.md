@@ -6,6 +6,10 @@ as a basic hardware sanity check — confirming the board, JTAG programming
 path, and I/O pins are all functioning correctly before moving on to more
 complex FPGA designs.
 
+Top-level VHDL structure originally provided as course material (MIT licensed) 
+by Ross K. Snider, Montana State University; 
+modified to add switch/LED pass-through logic.
+
 ## What it does
 
 - `SW[3:0]` → `LED[3:0]`, direct pass-through
